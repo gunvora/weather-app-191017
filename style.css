@@ -1,0 +1,79 @@
+.grid {
+  border: 3px black solid;
+  border-radius: 25px;
+  color: white;
+  display: grid;
+  grid-template: repeat(7, 1fr) / repeat(2, 1fr);
+  height: 100%;
+  width: auto;
+}
+
+.box {
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  color: black;
+  font-size: 15px;
+  font-style: italic;
+}
+
+img {
+  border-radius: 10px;
+  height: 120px
+  ;
+}
+
+.heading1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.temp2 {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+
+.typeImage3 {
+  grid-area: 3 / 2 / span 1 / span 1;
+}
+
+.obstime4 {
+  grid-area: 4 / 1 / span 1 / span 1;
+}
+
+.typeText5 {
+  grid-area: 4 / 2 / span 1 / span 1;
+}
+
+.todaysName6 {
+  grid-area: 5 / 1 / span 2 / span 2;
+}
+
+.todaysDate7 {
+  grid-area: 7 / 1 / span 1 / span 1;
+}
+
+.todaysDateAMPM8 {
+  grid-area: 7 / 2 / span 1 / span 1;
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    height: auto;
+    margin: auto;
+    width: 800px;
+  }
+}
