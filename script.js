@@ -1,4 +1,4 @@
-fetch("https://api.weatherstack.com/current?access_key=41daf8d321df23f5f8b06d20d8f4ad2a&query=Stockholm&units=m").then((response) => {
+fetch("http://api.weatherstack.com/current?access_key=41daf8d321df23f5f8b06d20d8f4ad2a&query=Stockholm&units=m").then((response) => {
   return response.json()
 }).then((json)  => {
   console.log(json);
