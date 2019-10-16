@@ -16,7 +16,9 @@
   ],
   "author": "gunvor",
   "license": "ISC",
-  "engines": {"8.11.1"},
+  "engines": {
+    "node": "8.11.1"
+  },
   "bugs": {
     "url": "https://github.com/gunvora/weather-application-ver19/issues"
   },
