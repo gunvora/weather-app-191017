@@ -1,0 +1,24 @@
+{
+  "name": "weather-application-ver19",
+  "version": "1.0.0",
+  "description": "todays_weather",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunvora/weather-application-ver19.git"
+  },
+  "keywords": [
+    "test",
+    "heroku"
+  ],
+  "author": "gunvor",
+  "license": "ISC",
+  "engines": {"8.11.1"},
+  "bugs": {
+    "url": "https://github.com/gunvora/weather-application-ver19/issues"
+  },
+  "homepage": "https://github.com/gunvora/weather-application-ver19#readme"
+}
