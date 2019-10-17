@@ -1,5 +1,5 @@
 {
-  "name": "weather-application-ver19",
+  "name": "weather-app-191017",
   "version": "1.0.0",
   "description": "todays_weather",
   "main": "script.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gunvora/weather-application-ver19.git"
+    "url": "git+https://github.com/gunvora/weather-app-191017.git"
   },
   "keywords": [
     "test",
